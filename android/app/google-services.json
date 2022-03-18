@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728994595254",
+    "project_id": "luckyloc-8bfd2",
+    "storage_bucket": "luckyloc-8bfd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728994595254:android:46af9a1c3bbc76adef8117",
+        "android_client_info": {
+          "package_name": "com.luckyloc.descoloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728994595254-8g925s7v3o6k6rd84dhocb8mhgl9cft1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7RcQCfrxVmLN_OcqJiDfmYg2Qf8K-KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728994595254-8g925s7v3o6k6rd84dhocb8mhgl9cft1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
