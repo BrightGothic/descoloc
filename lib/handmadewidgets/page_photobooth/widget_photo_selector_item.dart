@@ -1,5 +1,5 @@
 import 'package:descoloc/models/memories/story.dart';
-import 'package:descoloc/screens/home/photobooth/page_story/page_story.dart';
+import 'package:descoloc/screens/deprecated/photobooth/page_story/page_story.dart';
 import 'package:descoloc/services/stories_firebase_storage_service.dart';
 import 'package:flutter/material.dart';
 

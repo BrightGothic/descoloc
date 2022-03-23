@@ -4,9 +4,7 @@ import 'package:descoloc/screens/home/accueil/graphism_update/new_page_accueil.d
 import 'package:descoloc/screens/home/coloc/addcolocataires.dart';
 import 'package:descoloc/screens/home/coloc/graphics_update/new_page_colocs.dart';
 import 'package:descoloc/screens/home/groceries/groceries_graphic_update/new_page_groceries.dart';
-import 'package:descoloc/screens/home/photobooth/page_photobooth.dart';
-import 'package:descoloc/screens/home/photobooth/page_story/page_story.dart';
-import 'package:descoloc/screens/home/photobooth/tools/manipulate_images_library.dart';
+
 import 'package:descoloc/screens/home/tasks/graphism_update/new_page_tasks.dart';
 import 'package:descoloc/screens/home/tasks/task_form.dart';
 import 'package:descoloc/screens/profil/page_profil.dart';
@@ -17,7 +15,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:descoloc/models/user.dart';
 
-import 'godsama/screens/stories/gs_stories.dart';
 
 
 void main() async {

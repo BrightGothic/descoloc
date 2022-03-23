@@ -1,15 +1,15 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:descoloc/godsama/models/pictures.dart';
-import 'package:descoloc/godsama/models/stories.dart';
-import 'package:descoloc/godsama/screens/pictures/local_widget/gs_picture_card.dart';
-import 'package:descoloc/godsama/services/gs_firestorage_services.dart';
-import 'package:descoloc/godsama/services/gs_pictures_services.dart';
+import 'package:descoloc/screens/home/memories/models/pictures.dart';
+import 'package:descoloc/screens/home/memories/models/stories.dart';
+import 'package:descoloc/screens/home/memories/services/gs_firestorage_services.dart';
+import 'package:descoloc/screens/home/memories/services/gs_pictures_services.dart';
 import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+import 'local_widget/gs_picture_card.dart';
 
 class GsPicturesPage extends StatefulWidget {
   final Stories stories;

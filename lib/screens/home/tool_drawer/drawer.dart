@@ -1,10 +1,9 @@
-import 'package:descoloc/godsama/screens/stories/gs_stories.dart';
 import 'package:descoloc/models/user.dart';
-import 'package:descoloc/screens/authenticate/graphism_update/new_page_signin.dart';
+import 'package:descoloc/screens/deprecated/photobooth/page_photobooth.dart';
 import 'package:descoloc/screens/home/accueil/graphism_update/new_page_accueil.dart';
 import 'package:descoloc/screens/home/coloc/graphics_update/new_page_colocs.dart';
 import 'package:descoloc/screens/home/groceries/groceries_graphic_update/new_page_groceries.dart';
-import 'package:descoloc/screens/home/photobooth/page_photobooth.dart';
+import 'package:descoloc/screens/home/memories/screens/stories/gs_stories.dart';
 import 'package:descoloc/screens/home/tasks/graphism_update/new_page_tasks.dart';
 import 'package:descoloc/screens/profil/page_profil.dart';
 import 'package:descoloc/services/auth.dart';
@@ -12,7 +11,6 @@ import 'package:descoloc/services/shared_preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import '../../deprecated/page_home.dart';
 
 class HomeDrawer extends StatefulWidget {
   const HomeDrawer({Key? key}) : super(key: key);

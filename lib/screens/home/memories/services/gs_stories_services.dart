@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:descoloc/godsama/models/stories.dart';
+import 'package:descoloc/screens/home/memories/models/stories.dart';
 
 class GsStoriesServices {
 

@@ -1,12 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:descoloc/godsama/models/pictures.dart';
+import 'package:descoloc/screens/home/memories/models/pictures.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 class GsPicturesServices{
 
   void updatePictureData(String idColoc, String idStories, String id,  String name,  String filePath, String comment, Timestamp? created) async {
 
-    final CollectionReference picturesCollection = FirebaseFirestore.instance.collection('colocs/$idColoc/stories/$idStories/pictures');
+    final CollectionReference picturesCollection = FirebaseFirestore.instance.collection('colocs/$idColoc/stories/$idStories/memories');
 
     return await picturesCollection.doc(id).set({
       'id' : id,
@@ -31,7 +31,7 @@ class GsPicturesServices{
           .doc(idColoc)
           .collection("stories")
           .doc(idstories)
-          .collection("pictures")
+          .collection("memories")
       // .orderBy("created", descending: true)
           .get();
 
@@ -53,7 +53,7 @@ class GsPicturesServices{
       await FirebaseInstance
           .collection('colocs/'+idColoc+'/stories')
           .doc(idStories)
-          .collection('pictures').doc(pictures.id).delete();
+          .collection('memories').doc(pictures.id).delete();
 
       await FirebaseStorage.instance.refFromURL(pictures.filePath).delete();
       print('Supprimé !');

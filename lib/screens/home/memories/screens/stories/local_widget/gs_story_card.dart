@@ -1,13 +1,14 @@
-import 'package:descoloc/godsama/models/pictures.dart';
-import 'package:descoloc/godsama/models/stories.dart';
-import 'package:descoloc/godsama/screens/pictures/gs_pictures.dart';
-import 'package:descoloc/godsama/services/gs_pictures_services.dart';
+import 'package:descoloc/screens/home/memories/models/pictures.dart';
+import 'package:descoloc/screens/home/memories/models/stories.dart';
+import 'package:descoloc/screens/home/memories/screens/pictures/gs_pictures.dart';
+import 'package:descoloc/screens/home/memories/services/gs_pictures_services.dart';
 import 'package:flutter/material.dart';
 
 class StoryCard extends StatefulWidget {
   final Stories stories;
   final String idColoc;
   const StoryCard({required this.stories,required this.idColoc, Key? key}) : super(key: key);
+
 
   @override
   _StoryCardState createState() => _StoryCardState();
