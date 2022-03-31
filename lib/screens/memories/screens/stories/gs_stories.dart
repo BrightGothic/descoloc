@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:descoloc/screens/home/memories/models/stories.dart';
-import 'package:descoloc/screens/home/memories/services/gs_stories_services.dart';
+import 'package:descoloc/screens/memories/models/stories.dart';
+import 'package:descoloc/screens/memories/services/gs_stories_services.dart';
 
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:flutter/material.dart';
 
 import 'local_widget/gs_story_card.dart';
@@ -43,6 +43,7 @@ class _GsStoriesPageState extends State<GsStoriesPage> {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                   colors: [Colors.indigoAccent, Colors.lightBlue])
+                  //colors : [Colors.green, Colors.lightGreen])
             ),
           ),
 

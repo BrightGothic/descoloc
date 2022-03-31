@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:descoloc/classes/class_wrapper_yt.dart';
 import 'package:descoloc/models/user.dart';
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:descoloc/services/auth.dart';
 import 'package:descoloc/services/shared_preferences.dart';
 import 'package:firebase_auth/firebase_auth.dart';

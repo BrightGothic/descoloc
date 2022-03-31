@@ -15,9 +15,7 @@ class CardColoc extends StatelessWidget {
     return ListTile(
       leading: FlutterLogo(),
       onTap: () async {
-        Navigator
-            .push(context,
-            MaterialPageRoute(builder: (context) => HomePage()));
+        Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
         ManipulateSharedPreferences().setIdColoc(coloc.id);
       },
       title: Text(coloc.name),

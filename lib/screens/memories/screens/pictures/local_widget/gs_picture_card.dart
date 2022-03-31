@@ -1,7 +1,7 @@
-import 'package:descoloc/screens/home/memories/models/pictures.dart';
-import 'package:descoloc/screens/home/memories/models/stories.dart';
-import 'package:descoloc/screens/home/memories/services/gs_firestorage_services.dart';
-import 'package:descoloc/screens/home/memories/services/gs_pictures_services.dart';
+import 'package:descoloc/screens/memories/models/pictures.dart';
+import 'package:descoloc/screens/memories/models/stories.dart';
+import 'package:descoloc/screens/memories/services/gs_firestorage_services.dart';
+import 'package:descoloc/screens/memories/services/gs_pictures_services.dart';
 import 'package:flutter/material.dart';
 
 class GsPictureCard extends StatefulWidget {

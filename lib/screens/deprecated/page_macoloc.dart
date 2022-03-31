@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
-import '../home/coloc/addcolocataires.dart';
+import '../coloc/addcolocataires.dart';
 
 class Macoloc extends StatefulWidget {
   @override

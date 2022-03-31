@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:descoloc/screens/home/memories/models/pictures.dart';
+import 'package:descoloc/screens/memories/models/pictures.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 class GsPicturesServices{

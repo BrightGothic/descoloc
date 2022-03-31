@@ -6,7 +6,7 @@
 
 import 'package:descoloc/models/user.dart';
 import 'package:descoloc/screens/authenticate/graphism_update/new_page_forgotten_password.dart';
-import 'package:descoloc/screens/deprecated/page_home.dart';
+import 'package:descoloc/screens/home/homepage.dart';
 import 'package:descoloc/screens/authenticate/authenticate.dart';
 import 'package:descoloc/screens/colocschoice/coloc_choice.dart';
 import 'package:descoloc/services/shared_preferences.dart';
@@ -29,6 +29,7 @@ class Wrapper extends StatelessWidget {
         return HomePage();                      // If the user as already visited the app, he starts with the Home page
       }else {
         return Coloc_Choice(uid : user.uid);                  // Else, he has to choose what coloc to display first, or create one
+      //  return HomePage();
       }
     }
   }

@@ -15,7 +15,7 @@ import 'package:descoloc/services/tasks_database_service.dart';
 import 'package:provider/provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../home/accueil/graphism_update/new_page_accueil.dart';
+import '../accueil/graphism_update/new_page_accueil.dart';
 
 class HomePage extends StatefulWidget {
   final idColoc;

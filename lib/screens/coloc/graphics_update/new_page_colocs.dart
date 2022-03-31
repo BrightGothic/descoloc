@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:descoloc/handmadewidgets/page_coloc_list/widget_new_card_colocataire.dart';
 import 'package:descoloc/models/colocataire.dart';
 import 'package:descoloc/models/user.dart';
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:descoloc/services/colocataire_database_service.dart';
 import 'package:descoloc/services/shared_preferences.dart';
 import 'package:flutter/material.dart';

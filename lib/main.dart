@@ -1,13 +1,4 @@
 import 'package:descoloc/classes/class_wrapper_yt.dart';
-import 'package:descoloc/screens/authenticate/graphism_update/new_page_signin.dart';
-import 'package:descoloc/screens/home/accueil/graphism_update/new_page_accueil.dart';
-import 'package:descoloc/screens/home/coloc/addcolocataires.dart';
-import 'package:descoloc/screens/home/coloc/graphics_update/new_page_colocs.dart';
-import 'package:descoloc/screens/home/groceries/groceries_graphic_update/new_page_groceries.dart';
-
-import 'package:descoloc/screens/home/tasks/graphism_update/new_page_tasks.dart';
-import 'package:descoloc/screens/home/tasks/task_form.dart';
-import 'package:descoloc/screens/profil/page_profil.dart';
 import 'package:descoloc/services/auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

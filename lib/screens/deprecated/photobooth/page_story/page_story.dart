@@ -1,6 +1,6 @@
 import 'package:descoloc/handmadewidgets/page_story/widget_picture_tile.dart';
 import 'package:descoloc/models/memories/story.dart';
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

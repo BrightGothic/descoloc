@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:descoloc/handmadewidgets/page_course_list/widget_article_course.dart';
 import 'package:descoloc/models/grocerie_article.dart';
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:descoloc/services/auth.dart';
 import 'package:descoloc/services/groceries_database_service.dart';
 import 'package:descoloc/services/news_database_service.dart';

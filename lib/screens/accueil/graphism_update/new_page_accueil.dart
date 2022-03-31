@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:descoloc/models/news.dart';
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:descoloc/services/news_database_service.dart';
 import 'package:descoloc/services/shared_preferences.dart';
 import 'package:flutter/material.dart';

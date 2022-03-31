@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:descoloc/handmadewidgets/page_photobooth/widget_photo_selector_item.dart';
 import 'package:descoloc/models/memories/picture.dart';
 import 'package:descoloc/models/memories/story.dart';
-import 'package:descoloc/screens/home/tool_drawer/drawer.dart';
+import 'package:descoloc/screens/tool_drawer/drawer.dart';
 import 'package:descoloc/services/pictures_database_service.dart';
 import 'package:descoloc/services/shared_preferences.dart';
 import 'package:descoloc/services/stories_firebase_storage_service.dart';

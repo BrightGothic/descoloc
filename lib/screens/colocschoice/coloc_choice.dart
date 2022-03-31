@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:descoloc/models/user.dart';
-import 'package:descoloc/screens/home/accueil/graphism_update/new_page_accueil.dart';
+import 'package:descoloc/screens/accueil/graphism_update/new_page_accueil.dart';
 import 'package:descoloc/screens/deprecated/page_home.dart';
 import 'package:descoloc/screens/profil/page_profil.dart';
 import 'package:descoloc/screens/colocschoice/add_colocation.dart';

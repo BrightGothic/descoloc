@@ -1,10 +1,10 @@
 import 'package:descoloc/models/user.dart';
 import 'package:descoloc/screens/deprecated/photobooth/page_photobooth.dart';
-import 'package:descoloc/screens/home/accueil/graphism_update/new_page_accueil.dart';
-import 'package:descoloc/screens/home/coloc/graphics_update/new_page_colocs.dart';
-import 'package:descoloc/screens/home/groceries/groceries_graphic_update/new_page_groceries.dart';
-import 'package:descoloc/screens/home/memories/screens/stories/gs_stories.dart';
-import 'package:descoloc/screens/home/tasks/graphism_update/new_page_tasks.dart';
+import 'package:descoloc/screens/accueil/graphism_update/new_page_accueil.dart';
+import 'package:descoloc/screens/coloc/graphics_update/new_page_colocs.dart';
+import 'package:descoloc/screens/groceries/groceries_graphic_update/new_page_groceries.dart';
+import 'package:descoloc/screens/memories/screens/stories/gs_stories.dart';
+import 'package:descoloc/screens/tasks/graphism_update/new_page_tasks.dart';
 import 'package:descoloc/screens/profil/page_profil.dart';
 import 'package:descoloc/services/auth.dart';
 import 'package:descoloc/services/shared_preferences.dart';

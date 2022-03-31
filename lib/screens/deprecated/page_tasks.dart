@@ -1,5 +1,5 @@
 import 'package:descoloc/handmadewidgets/page_tasks_list/widget_task.dart';
-import 'package:descoloc/screens/home/tasks/task_form.dart';
+import 'package:descoloc/screens/tasks/task_form.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
